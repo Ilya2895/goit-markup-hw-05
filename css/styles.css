@@ -821,7 +821,7 @@ address {
 }
 
 .modal-form-label {
-  display: flex;
+  /* display: flex; */
   display: block;
   margin-bottom: 4px;
   flex-direction: column;
