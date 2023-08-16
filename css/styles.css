@@ -740,13 +740,12 @@ address {
 }
 
 .footer-subscri-form {
-  position: relative;
   display: flex;
-  gap 24px;
+  gap: 24px;
 }
 
 .footer-label {
-  margin-right: 24px;
+  /* margin-right: 24px; */
   
 }
 
