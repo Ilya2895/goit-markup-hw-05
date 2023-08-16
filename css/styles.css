@@ -740,6 +740,7 @@ address {
 }
 
 .footer-subscri-form {
+  position: relative;
   display: flex;
   gap 24px;
 }
