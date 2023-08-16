@@ -821,6 +821,7 @@ address {
 }
 
 .modal-form-label {
+  display: flex;
   display: block;
   margin-bottom: 4px;
   flex-direction: column;
@@ -911,7 +912,7 @@ address {
   font-size: 12px;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
-  display: flex;
+
   align-items: center;
 }
 
