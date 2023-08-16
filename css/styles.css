@@ -834,7 +834,7 @@ address {
 .modal-form-input {
   width: 100%;
   height: 40px;
-  margin-top: 4px;
+  /* margin-top: 4px; */
   padding-left: 38px;
   padding-right: 24px;
   background-color: transparent;
@@ -922,7 +922,6 @@ address {
   border-radius: 2px;
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
   margin-right: 8px;
-  display: flex;
   display: inline-flex;
   align-items: center;
   justify-content: center;
