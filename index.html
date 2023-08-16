@@ -456,30 +456,73 @@
         <form class="modal-form">
           <div class="modal-field">
             <label for="user-name" class="modal-form-label">Name</label>
-            <input
-              class="modal-form-input"
-              type="text"
-              name="user-name"
-              id="user-name"
-            />
+            <div class="modal-input-wrap">
+              <input
+                class="modal-form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+              />
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
           </div>
           <div class="modal-field">
             <label for="user-tel" class="modal-form-label">Phone</label>
-            <input
-              class="modal-form-input"
-              type="tel"
-              name="user-tel"
-              id="user-tel"
-            />
+            <div class="modal-input-wrap">
+              <input
+                class="modal-form-input"
+                type="tel"
+                name="user-tel"
+                id="user-tel"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
           </div>
           <div class="modal-field">
             <label for="user-email" class="modal-form-label">Email</label>
+            <div class="modal-input-wrap">
+              <input
+                class="modal-form-input"
+                type="email"
+                name="user-email"
+                id="user-email"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-text" class="modal-form-label">Comment</label>
+            <textarea
+              name="user-text"
+              id="user-text"
+              class="modal-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="modal-field bt">
             <input
-              class="modal-form-input"
-              type="email"
-              name="user-email"
-              id="user-email"
+              type="checkbox"
+              id="policy"
+              name="policy"
+              value="true"
+              class="modal-check visually-hidden"
             />
+            <label for="policy" class="modal-check-text">
+              <span>
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-policy-click"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="modal-check-link" href="">Privacy Policy</a></label
+            >
           </div>
 
           <button class="modal-form-btn" type="submit">Send</button>
