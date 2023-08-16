@@ -821,9 +821,8 @@ address {
 }
 
 .modal-form-label {
-  /* display: flex; */
-  /* display: block; */
-  /* margin-bottom: 4px; */
+  display: block;
+  margin-bottom: 4px;
   flex-direction: column;
   color: var(--lightslate, #8e8f99);
   font-size: 12px;
@@ -834,7 +833,7 @@ address {
 .modal-form-input {
   width: 100%;
   height: 40px;
-  margin-top: 4px;
+  /* margin-top: 4px; */
   padding-left: 38px;
   padding-right: 24px;
   background-color: transparent;
