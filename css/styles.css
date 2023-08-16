@@ -723,6 +723,71 @@ address {
   fill: #f4f4fd;
 }
 
+.footer-subscri {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.footer-subscri-title {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.footer-subscri-form {
+  display: flex;
+}
+
+.footer-label {
+  margin-right: 24px;
+  
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--white, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--white, #fff);
+  background-color: transparent;
+}
+
+.footer-input::placeholder {
+  font-size: 12px;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04em;
+  color #ffffff;
+}
+
+.footer-subscri-btn {
+  display: inline-flex;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--iris, #4D5AE5);
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04px;
+  border: none;
+  cursor: pointer;
+}
+
+.fotter-subscri-icon {
+  margin-left: 16px;
+}
+
 /**----------------------------FOOTER---------------------------*/
 
 /**----------------------------BACKDROP---------------------------*/
