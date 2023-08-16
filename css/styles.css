@@ -724,9 +724,10 @@ address {
 }
 
 .footer-subscri {
-  display: flex;
+  margin-left: 80px;
+  /* display: flex;
   /* justify-content: space-between; */
-  align-items: center;
+  /* align-items: center; */ */
 }
 
 .footer-subscri-title {
@@ -735,10 +736,12 @@ address {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .footer-subscri-form {
   display: flex;
+  gap 24px
 }
 
 .footer-label {
@@ -755,6 +758,10 @@ address {
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--white, #fff);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em; 
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: transparent;
 }
 
@@ -779,12 +786,12 @@ address {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.04px;
+  letter-spacing: 0.04em;
   border: none;
   cursor: pointer;
 }
 
-.fotter-subscri-icon {
+.frame {
   margin-left: 16px;
 }
 
