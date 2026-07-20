@@ -275,7 +275,7 @@ body:has(.backdrop.is-open) {
 }
 
 .modal-form-agreement-link {
-  line-height: 1.33;
+  line-height: 1.16;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
