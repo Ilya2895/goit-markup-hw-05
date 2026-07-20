@@ -140,6 +140,8 @@ body:has(.backdrop.is-open) {
   border: 1px solid rgba(46 47 66 /40%);
   border-radius: 4px;
 
+  background-color: transparent;
+
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -173,11 +175,14 @@ body:has(.backdrop.is-open) {
   padding: 8px 16px;
 
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
 
   border-radius: 4px;
   border: 1px solid rgba(46 47 66 /40%);
+
+  background-color: transparent;
+
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   outline: transparent;
@@ -229,7 +234,7 @@ body:has(.backdrop.is-open) {
 .modal-form-agreement-wrapper {
   font-size: 12px;
 
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
 
   color: #8e8f99;
